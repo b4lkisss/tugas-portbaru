@@ -28,19 +28,18 @@ export default function RootLayout({
             <ul className="flex gap-6 text-lg">
               {/* Link navigasi ke halaman lain */}
               <li>
-                <Link href="/" className="hover:text-yellow-300 transition">
+                <Link href="/" >
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-yellow-300 transition">
+                <Link href="/about" >
                   About
                 </Link>
               </li>
               <li>
                 <Link
                   href="/projects"
-                  className="hover:text-yellow-300 transition"
                 >
                   Projects
                 </Link>
@@ -48,7 +47,6 @@ export default function RootLayout({
               <li>
                 <Link
                   href="/skill"
-                  className="hover:text-yellow-300 transition"
                 >
                   Skills
                 </Link>
@@ -56,7 +54,6 @@ export default function RootLayout({
               <li>
                 <Link
                   href="/contact"
-                  className="hover:text-yellow-300 transition"
                 >
                   Contact
                 </Link>
